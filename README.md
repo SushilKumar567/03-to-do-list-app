@@ -3,7 +3,7 @@
 This To-do App provides an efficient solution for task management, allowing users to add, delete, and mark tasks as complete. With a clean, intuitive interface and effective error handling, it ensures a seamless and user-friendly experience.
 
 **Code Output:**
-Please click [here](https://sushilkumar567.github.io/3-to-do-list-app/) to view the live code output.
+Please click [here](https://sushilkumar567.github.io/03-to-do-list-app/) to view the live code output.
 
 ## Technologies Used:
 
