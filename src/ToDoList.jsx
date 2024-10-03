@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaCheck, FaTimes } from "react-icons/fa";
 import "./style.css";
+import icon from "./images/icon.png";
 
 const ToDoList = () => {
   const [input, setInput] = useState("");
@@ -39,11 +40,7 @@ const ToDoList = () => {
       <div className="m-8 min-h-[90vh] min-w-[25%] bg-white rounded-xl shadow-lg p-6">
         <h2 className="text-center text-3xl font-bold text-c2 mb-6">
           To-Do List
-          <img
-            src="images/icon.png"
-            alt="icon"
-            className="inline-block w-12 ml-2"
-          />
+          <img src={icon} alt="icon" className="inline-block w-12 ml-2" />
         </h2>
         <div className="flex items-center border border-blue-300 rounded-lg mb-4">
           <input
